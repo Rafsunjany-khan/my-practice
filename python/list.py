@@ -1,0 +1,20 @@
+a = ['c', 'java', 'python', 1, 2, 3, True]
+#print(type(a))
+print(len(a))
+print(a[2])
+print(a[1:4])
+print(a[-3:-1])
+print(a.index('java'))
+a.append('javascript')
+print(a)
+b = list(('apple', 'banana', 'grapes'))
+# print(b)
+a[0] = "c++"
+print(a)
+a.insert(4, "bootstrap")
+a.append("watermelon")
+a.extend(b)
+a.remove("grapes")
+a.pop(3)
+del a[8]
+print(a)
